@@ -37,6 +37,15 @@ body{
     color:#404bbf;
     line-height: 1.5rem;
 }
+.mailtel-link{
+    color: #434455;
+}
+.mailtel-link:hover{
+    color: #404bbf;
+}
+.mailtel-link:focus{
+    color:#404bbf;
+}
 .header-adress-list-e{
     line-height: 1.5;
     letter-spacing: 0.02em;
