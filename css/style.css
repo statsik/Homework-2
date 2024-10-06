@@ -1,82 +1,142 @@
 body{
-    font-family: 'Roboto';
-    background-color: #FFF;
-    color:rgba(67, 68, 85, 1);
+    font-family: 'Roboto',sans-serif;
+    background-color: #FFFFFF;
+    color:#434455;
 }
-.header-navigation-link{
+.logo{
     line-height: 1.3125rem;
     font-weight: 700;
+    font-family: "Raleway";
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.logo-studio{
+    color:#2e2f42;
 }
 .header-navigation-list{
-    line-height: 1.5rem;
+    line-height: 1.5;
     color: rgba(46, 47, 66, 1);
     font-weight: 500;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .header-navigation-list:hover{
-    color:#404BBF;
+    color:#404bbf;
     line-height: 1.5rem;
 }
 .header-navigation-list:active{
-    color:#404BBF;
+    color:#404bbf;
     line-height: 1.5rem;
 }
-.header-adress-list li:hover{
-    color:#404BBF;
+.header-adress-list-e{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.header-adress-list-e:hover{
+    color:#404bbf;
     line-height: 1.5rem;
+}
+.header-adress-list-e:active{
+    color:#404bbf;
+}
+.header-adress{
+    font-style: normal;
 }
 .effective-solution-button{
     color: #FFFF;
-    width: 169px;
-    height: 56px;
-    top: 428px;
-    left: 636px;
-    padding: 16px 32px 16px 32px;
-    gap: 10px;
-    border-radius: 4px 0px 0px 0px;
-    opacity: 0px;
-    background-color: rgba(77, 90, 229, 1);
     line-height: 1.5rem;
     cursor: pointer;
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
-.effective-solution h2{
-    line-height: 3.75rem;
-    color: rgba(255, 255, 255, 1);
+.effective-solution-button:hover{
+    background-color: #404BBF;
+}
+.effective-solution-button:active{
+    background-color: #404BBF;
+}
+.effective-solution{
+    background-color:#2e2f42;
+}
+.effective-solution-title{
+    line-height: 1.07;
     font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }
-.headline-list-part h3{
+.headline-list-part-title{
     line-height: 1.5rem;
     color:rgba(46, 47, 66, 1);
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:#2e2f42;
 }
-.headline-list-part p{
-    line-height: 1.5rem;
-    color:rgba(67, 68, 85, 1);
-    font-weight: 400;
+.headline-list-part-paragraf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455
 }
-.our-team-member h3{
-    line-height: 1.5rem;
-    color:rgba(46, 47, 66, 1);
+.our-team{
+    background-color: #F4F4FD;
+}
+.our-team-title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
+}
+.our-team-member{
+    background-color: #FFFFFF;
+}
+.our-team-member-title{
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.our-team-member p{
-    line-height: 1.5rem;
-    color:rgba(67, 68, 85, 1);
-    font-weight: 400;
+.our-team-member-paragraf{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
 }
 .our-portfolio_title{
-    line-height: 2.5rem;
-    color:rgba(46, 47, 66, 1);
-    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:#2e2f42;
 }
-.our-portfolio-list-part h3{
-    line-height: 1.5rem;
-    color: rgba(46, 47, 66, 1);
+.our-portfolio-list-part-title{
     font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
-.our-portfolio-list-part p{
-    line-height: 1.5rem;
-    color:rgba(67, 68, 85, 1);
-    font-weight: 400;
+.our-portfolio-list-part-paragraf{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#434455;
+}
+.footer{
+    background-color: #2e2f42;
 }
 .footer-webstudio{
     line-height: 1.3125rem;
