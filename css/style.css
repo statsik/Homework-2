@@ -1,3 +1,88 @@
 body{
-    color:red;
+    font-family: 'Roboto';
+    background-color: #FFF;
+    color:rgba(67, 68, 85, 1);
+}
+.header-navigation-link{
+    line-height: 1.3125rem;
+    font-weight: 700;
+}
+.header-navigation-list{
+    line-height: 1.5rem;
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+}
+.header-navigation-list:hover{
+    color:#404BBF;
+    line-height: 1.5rem;
+}
+.header-navigation-list:active{
+    color:#404BBF;
+    line-height: 1.5rem;
+}
+.header-adress-list li:hover{
+    color:#404BBF;
+    line-height: 1.5rem;
+}
+.effective-solution-button{
+    color: #FFFF;
+    width: 169px;
+    height: 56px;
+    top: 428px;
+    left: 636px;
+    padding: 16px 32px 16px 32px;
+    gap: 10px;
+    border-radius: 4px 0px 0px 0px;
+    opacity: 0px;
+    background-color: rgba(77, 90, 229, 1);
+    line-height: 1.5rem;
+    cursor: pointer;
+}
+.effective-solution h2{
+    line-height: 3.75rem;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+}
+.headline-list-part h3{
+    line-height: 1.5rem;
+    color:rgba(46, 47, 66, 1);
+    font-weight: 500;
+}
+.headline-list-part p{
+    line-height: 1.5rem;
+    color:rgba(67, 68, 85, 1);
+    font-weight: 400;
+}
+.our-team-member h3{
+    line-height: 1.5rem;
+    color:rgba(46, 47, 66, 1);
+    font-weight: 500;
+}
+.our-team-member p{
+    line-height: 1.5rem;
+    color:rgba(67, 68, 85, 1);
+    font-weight: 400;
+}
+.our-portfolio_title{
+    line-height: 2.5rem;
+    color:rgba(46, 47, 66, 1);
+    font-weight: 700;
+}
+.our-portfolio-list-part h3{
+    line-height: 1.5rem;
+    color: rgba(46, 47, 66, 1);
+    font-weight: 500;
+}
+.our-portfolio-list-part p{
+    line-height: 1.5rem;
+    color:rgba(67, 68, 85, 1);
+    font-weight: 400;
+}
+.footer-webstudio{
+    line-height: 1.3125rem;
+    font-weight: 700;
+}
+.footer p{
+    line-height: 1.5rem;
+    font-weight: 400;
 }
