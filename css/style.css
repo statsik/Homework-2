@@ -22,18 +22,18 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.header-navigation-list-part{
+.header-navigation-list-part-link{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#2e2f42;
 }
-.header-navigation-list-part:hover{
+.header-navigation-list-part-link:hover{
     color:#404bbf;
     line-height: 1.5rem;
 }
-.header-navigation-list-part:focus{
+.header-navigation-list-part-link:focus{
     color:#404bbf;
     line-height: 1.5rem;
 }
@@ -150,4 +150,6 @@ body{
 .footer-paragraf{
     line-height: 1.5rem;
     font-weight: 400;
+    color:#F4F4FD;
+    letter-spacing: 0.02em;
 }
